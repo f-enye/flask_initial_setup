@@ -1,6 +1,6 @@
 from flask import render_template, url_for, redirect, g, request, flash
 from flask.ext.login import login_user, logout_user, current_user, login_required
-from hackathon_project import app, db, lm
+from flask_initial_setup import app, db, lm
 from forms import LoginForm, SignupForm
 from models import User
 

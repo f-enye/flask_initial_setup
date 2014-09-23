@@ -10,4 +10,4 @@ lm = LoginManager()
 lm.init_app(app)
 lm.login_view = 'Login'
 
-from hackathon_project import views, models
+from flask_initial_setup import views, models

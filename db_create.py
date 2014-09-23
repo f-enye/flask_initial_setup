@@ -3,7 +3,7 @@
 # from config import SQLALCHEMY_DATABASE_URI
 # from config import SQLAlCHEMY_MIGRATE_REPO
 # import os.path
-from hackathon_project import db
+from flask_initial_setup import db
 
 db.create_all()
 ###########This logic is used for migrations############
